@@ -1,0 +1,2 @@
+[console_scripts]
+vishwa = vishwa.cli:main

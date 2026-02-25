@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vishwa"
+version = "1.0.0"
+description = "Animated hacker-style resume CLI."
+authors = [{name="Vishwa Panchal"}]
+requires-python = ">=3.8"
+
+[project.scripts]
+vishwa = "vishwa.cli:main"
